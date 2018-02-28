@@ -229,7 +229,7 @@ function comprobar(){
     document.getElementsByTagName("h3")[2].focus();
     alert("Selecciona una opción del checkbox");
     return false;
-   } else (f.elements[3].value=="") {
+   } if (f.elements[3].value=="") {
     f.elements[3].focus();
     alert("Escribe un número");
     return true;
