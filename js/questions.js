@@ -181,9 +181,9 @@ function darRespuestaHtml(r){
  document.getElementById('resultadosDiv').appendChild(p);
 }
 
-function darRespuestaHtml2(r){
+function darRespuestaHtml2(s){
  var z = document.createElement("z");
- var node2 = document.createTextNode(r);
+ var node2 = document.createTextNode(s);
  z.appendChild(node2);
  document.getElementById('resultadosDiv').appendChild(z);
 }
