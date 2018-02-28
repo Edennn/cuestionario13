@@ -212,9 +212,10 @@ function comprobar(){
     f.elements[1].focus();
     alert("Selecciona una opción");
     return false;
-   } else  (!checked) {    
+   } if  (!checked) {    
     document.getElementsByTagName("h3")[2].focus();
     alert("Selecciona una opción del checkbox");
-    return true;
+    return false;
    }
+   else return true;
 }
