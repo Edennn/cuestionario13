@@ -225,13 +225,9 @@ function comprobar(){
     f.elements[1].focus();
     alert("Selecciona una opción");
     return false;
-   } else if (!checked) {    
+   } else  (!checked) {    
     document.getElementsByTagName("h3")[2].focus();
     alert("Selecciona una opción del checkbox");
-    return false;
-   } if (f.elements[3].value=="") {
-    f.elements[3].focus();
-    alert("Escribe un número");
     return true;
    }
 }
